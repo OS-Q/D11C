@@ -4,6 +4,7 @@
  */
 
 #include <RF24G.h>
+
 // We must instantiate the RF24_G object outside of the setup function so it is available in the loop function
 RF24_G test;
 void setup() {
